@@ -5,7 +5,7 @@ import Profile from "../Profile/Profile";
 import FriendList from "../FriendList/FriendList";
 import TransactionHistory from "../Transaction/TransactionHistory";
 
-export default App = () => {
+const App = () => {
   return (
     <>
       <Profile
@@ -20,3 +20,5 @@ export default App = () => {
     </>
   );
 };
+
+export default App;
