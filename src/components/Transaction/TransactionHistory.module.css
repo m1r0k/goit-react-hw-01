@@ -32,6 +32,10 @@ td:first-child {
     text-align: left;
 }
 
+td:last-child {
+    text-transform: uppercase;
+}
+
 tr:nth-child(even) {
     background-color: #808080;
 }
