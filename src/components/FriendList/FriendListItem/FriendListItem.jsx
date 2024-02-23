@@ -1,7 +1,7 @@
 import style from './FriendListItem.module.css';
 import clsx from 'clsx';
 
-export const FriendListItem = (
+const FriendListItem = (
     {
         avatar,
         name,
@@ -17,4 +17,6 @@ export const FriendListItem = (
             <p className={isOnlineSts}>{isOnline ? 'Online' : 'Offline'}</p>
         </div>
     );
-};
+}
+
+export default FriendListItem;
