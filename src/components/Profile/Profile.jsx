@@ -24,7 +24,7 @@ const Profile = ({
                     <span className={style.statusListItemTitle}>Followers</span>
                     <span className={style.statusListItemAmount}>{followers}</span>
                 </li>
-                <li className={'${style.statusListItem} ${style.middle}'}>
+                <li className={style.statusListItem}>
                     <span className={style.statusListItemTitle}>Views</span>
                     <span className={style.statusListItemAmount}>{views}</span>
                 </li>

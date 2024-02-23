@@ -1,19 +1,35 @@
 .table {
-    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 748px;
+    color: #070707;
     text-align: center;
+    border-collapse: collapse;
 }
 
 table,
+th,
+td {
+    width: 33%;
+    padding: 4px;
+    font-size: 20px;
+}
 
 th,
 td {
-    padding: 4px;
+    border: 2px solid #070707;
 }
 
 .header {
     background-color: #272727;
     color: white;
     font-size: 14px;
+}
+
+td:first-child {
+    padding-left: 60px;
+    text-transform: capitalize;
+    text-align: left;
 }
 
 tr:nth-child(even) {

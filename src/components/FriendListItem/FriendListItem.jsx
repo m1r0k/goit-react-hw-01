@@ -12,7 +12,7 @@ const FriendListItem = (
         isOnline ? style.friendIsOnline : style.friendIsOffline);
     return (
         <div className={style.friendItem}>
-            <img className={style.friendAvatar} src={avatar} alt="Avatar" width="48" />
+            <img className={style.friendAvatar} src={avatar} alt="Avatar" width="84" />
             <p className={style.friendName}>{name}</p>
             <p className={isOnlineSts}>{isOnline ? 'Online' : 'Offline'}</p>
         </div>
