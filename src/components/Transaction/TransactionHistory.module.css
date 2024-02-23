@@ -1,0 +1,21 @@
+.table {
+    font-size: 14px;
+    text-align: center;
+}
+
+table,
+
+th,
+td {
+    padding: 4px;
+}
+
+.header {
+    background-color: #272727;
+    color: white;
+    font-size: 14px;
+}
+
+tr:nth-child(even) {
+    background-color: #808080;
+}

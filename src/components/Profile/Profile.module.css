@@ -1,0 +1,56 @@
+.profileCard {
+    width: 630px;
+    height: 650px;
+    margin: 0 auto;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 2px solid #070707;
+    color: #070707;
+    margin-bottom: 32px;
+}
+
+.profileInfo {
+    padding: 10px auto;
+}
+
+.profileInfo>img {
+    width: 80px;
+    border-radius: 50%;
+    margin-bottom: 24px;
+}
+
+.nameTitle {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.nameInfo {
+    color: #808080;
+    margin-bottom: 10px;
+}
+
+.statusList {
+    display: flex;
+    border-top: 2px solid #808080;
+    font-size: 14px;
+}
+
+.statusListItem {
+    background-color: #cccccc;
+    padding: 20px 0;
+    justify-content: center;
+}
+
+.middle {
+    border-left: 2px solid #808080;
+    border-right: 2px solid #808080;
+}
+
+.statusListItemTitle {
+    margin-bottom: 8px;
+}
+
+.statusListItemAmount {
+    font-weight: 600;
+}
